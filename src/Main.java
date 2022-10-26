@@ -15,5 +15,6 @@ public class Main {
 
         List<Integer> listForReverse  = Arrays.asList(array);
         Collections.reverse(listForReverse);
+        System.out.println(listForReverse.toString());
     }
 }
